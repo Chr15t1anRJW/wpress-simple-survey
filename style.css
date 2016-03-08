@@ -1,0 +1,865 @@
+/*
+Theme Name: CoursePress Child Theme
+Theme URI: http://choosegrowth.com/
+Description: This is a custom child theme for CoursePress
+Author: ChooseGrowth
+Author URI: http://choosegrowth.com/
+Template: coursepress
+Version: 1.0
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300);
+
+
+
+
+/*Inline Styles WILL overwrite these default styles*/
+/*Sets default font family for site*/
+h1,h2,h4,h5,h6 {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+
+body,a { 
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+}
+
+
+/*Sets default paragraph font size for site*/
+p{
+ 	font-size:100%; 
+}
+/*Sets link color & hover color for site*/
+a{
+  text-decoration: none;
+  white-space: nowrap;/*Prevents Link text on a single line*/
+}
+a:hover{
+  text-decoration: none;
+}
+
+/*Sets Header 1 color*/
+h1 em{
+	color:#EF4C24!important;
+}
+
+/*Submenu Navigation*/
+div.submenu-main-container {
+    font-family: 'Open Sans';
+    background-color: #ffffff;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+/*Aligns Logo*/
+#coursepress_logo {
+    margin-top: -40px;
+}
+
+
+
+
+/*Creates Boxed Layout*/
+div.site-content {
+    background-color: #ffffff;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+/*Makes Site Header Solid*/
+header.site-header {
+    background-color: #ffffff;
+  border-bottom: 0px solid #ffffff;
+  padding: 50px 0px 10px 0px;
+}
+
+/*Current Page Color in Nav*/
+li.current-menu-item a, li.current_page_item a {
+    color: #EF4C24;
+}
+
+/*Units List Colors*/
+ul.units-archive-list li {
+    background-color: #ffffff;
+    color: #5E5E5E;
+}
+
+ul.units-archive-list li a {
+    color: #EF4C24!important;
+}
+
+ul.units-archive-list li a:hover {
+    color: #008DC1!important;
+}
+/*End Units List Colors*/
+
+
+
+/*Header*/
+
+/*Progress Saved Banner Color*/
+/*This only pops up when you save and exit a course*/
+.save_elements_message_ok{
+background-color:#5E5E5E
+color:#ffffff;
+}
+
+/*Main Coursepress Navigation icons and font*/
+/*Courses Menu Image*/
+.main-navigation .menu-item-cp-courses{
+background:url('/wp-content/uploads/2015/08/Courses_icon.png') no-repeat !important;
+}
+
+/*Dashboard Menu Image*/
+.main-navigation .menu-item-cp-dashboard{
+background:url('/wp-content/uploads/2015/08/Dashboard_icon.png') no-repeat !important;
+}
+
+/*Logout Menu Image*/
+.main-navigation .menu-item-cp-logout{
+background:url('/wp-content/uploads/2015/08/Logout_icon.png') no-repeat !important;
+}
+
+/*Change Menu Font Color*/
+.main-navigation a{
+color:#5E5E5E;
+}
+
+/*Change Menu Hover Font Color*/
+.main-navigation a:hover{
+color:#EF4C24;
+}
+
+/*End Main Coursepress Navigation*/
+/*End Header*/
+
+/*Coursepress Sub-Menu*/
+/*Coursepress Sub-Menu Background Banner*/
+div.submenu-main-container {
+color: #5E5E5E !important;
+}
+
+/*Sub-Menu icons*/
+/*Units Menu Item*/
+li.submenu-units a{
+background:url('/wp-content/uploads/2015/08/Units_icon.png') no-repeat !important;
+}
+
+/*Notifications Menu Item*/
+li.submenu-notifications a{
+background:url('/wp-content/uploads/2015/08/Notifications_icon.png') no-repeat !important;
+}
+
+/*Discussions Menu Item*/
+li.submenu-discussions a{
+background:url('/wp-content/uploads/2015/08/Discussions_icon.png') no-repeat !important;
+}
+
+/*Workbook Menu Item*/
+li.submenu-workbook a{
+background:url('/wp-content/uploads/2015/08/Screen-Shot-2015-08-27-at-8.59.14-AM.png') no-repeat !important;
+}
+
+/*Course Details Menu Item*/
+li.submenu-info a{
+background:url('/wp-content/uploads/2015/08/CourseDetails.png') no-repeat !important;
+}
+/*End Sub-Menu Icons*/
+
+/*Coursepress Sub-Menu Color*/
+/*Active Page Color*/
+.nav-submenu .submenu-active a{
+color:#EF4C24!important;
+}
+
+/*Units Menu Color*/
+.submenu-item.submenu-units a{
+color: #5E5E5E;
+}
+
+/*Notifications menu hide*/
+.submenu-item.submenu-notifications a{
+display:none;
+}
+/*Hides hidden notification menu image*/
+li.submenu-item.submenu-notifications {
+    display: none!important;
+}
+/*Discussions Menu Color*/
+.submenu-item.submenu-discussions a{
+
+color: #5E5E5E;
+}
+
+/*Workbook Menu Color*/
+.submenu-item.submenu-workbook a{
+color: #5E5E5E;
+}
+
+/*Course Details Menu Color*/
+.submenu-item.submenu-info a{
+color: #5E5E5E;
+}
+/*End Sub-Menu Color*/
+
+/*Coursepress Sub-Menu Hover Color*/
+/*Units Hover Menu Color*/
+.submenu-item.submenu-units a:hover{
+color: #008DC1;
+}
+
+/*Notifications Hover Menu Color*/
+.submenu-item.submenu-notifications a:hover{
+color: #008DC1;
+}
+
+/*Discussions Hover Menu Color*/
+.submenu-item.submenu-discussions a:hover{
+color: #008DC1;
+}
+
+/*Workbook Hover Menu Color*/
+.submenu-item.submenu-workbook a:hover{
+color: #008DC1;
+}
+
+/*Course Details Hover Menu Color*/
+.submenu-item.submenu-info a:hover{
+color: #008DC1;
+}
+/*End Sub-Menu Hover Color*/
+/*End Courspress Sub-Menu*/
+
+/*Coursepress Line Color*/
+div.quick-course-info{
+border-style:none!important;
+}
+
+
+/*Courses Page, Details Line*/
+.post-type-archive-course article.type-course figure{
+border-right:2px solid #EF4C24;
+}
+
+/*Courses-Dashboard Lines*/
+.course-list .h1-title{
+border-bottom:2px solid #EF4C24;
+}
+
+/*Line below "Instructors"*/
+.h1-instructors{
+border-bottom:2px solid #EF4C24;
+}
+
+/*Line below "About the Course"*/
+.h1-about-course{
+border-bottom:2px solid #EF4C24;
+}
+
+/*Line Below Instructors Name on Profile Page*/
+.h1-instructor-title{
+border-bottom:2px solid #EF4C24;
+}
+
+/*Line Below “Courses” on Profile Page*/
+.h2-instructor-bio{
+border-bottom:2px solid #EF4C24;
+}
+
+/*Above Radio button Question section Line Color*/
+.front-single-module-save .radio_answer_check_li{
+border-top: 2px solid #EF4C24;
+}
+
+/*Footer line color*/
+.site-footer{
+border-top:1px solid #5E5E5E;
+}
+/*End Coursepress Line Styling*/
+
+/*Coursepress Navigation buttons*/
+/*Course Next & Done Button Color*/
+#modules_form input[type="submit"].apply-button-enrolled{
+background-color:#EF4C24;
+}
+
+#modules_form input[type="submit"].apply-button-enrolled:hover{
+  background-color:#5E5E5E;
+}
+/*Find out More Button Color*/
+.featured-course-link button{
+background:#EF4C24;
+}
+
+/*Find out More Button Hover Color*/
+.featured-course-link button:hover{
+background-color:#5E5E5E;
+}
+
+/*Courses-Dashboard Manage Courses Buttons*/
+.manage-course{
+background-color:#EF4C24;
+}
+
+/*Courses-Dashboard Hover Manage Courses Buttons*/
+.manage-course:hover{
+background-color:#5E5E5E;
+}
+
+/*Active Course Pages Background and font color*/
+#navigation-pagination.navigation li.active a{
+background-color:#EF4C24;
+color:#FFFFFF;
+border:1px solid #EF4C24;
+}
+
+/*Active Course Pages Hover Background and font color*/
+#navigation-pagination.navigation li.active a:hover{
+background-color:#5E5E5E;
+color:#ffffff;
+border:1px solid #5E5E5E;
+}
+
+/*Course Page number color */
+#navigation-pagination.navigation li a{
+color:#EF4C24;
+border:1px solid #EF4C24;
+}
+
+/*Course Page number hover color */
+#navigation-pagination.navigation li a:hover{
+background-color: #5E5E5E;
+    color:#ffffff;
+border:1px solid #5E5E5E;
+}
+
+/*Course Description Page Buttons*/
+.apply-button, .apply-button-enrolled{
+background-color:#EF4C24;
+
+}
+
+/*Course Description Hover Page Buttons*/
+.apply-button:hover, .apply-button-enrolled:hover{
+background-color:#5E5E5E;
+
+}
+
+/*Student Profile "Save Changes" button color*/
+#student-settings input[type="submit"].apply-button-enrolled{
+background-color:#EF4C24;
+
+}
+
+/*Student Profile "Save Changes" Hover button color*/
+#student-settings input[type="submit"].apply-button-enrolled:hover{
+background-color:#5E5E5E;
+
+}
+/*End Coursepress Navigation buttons*/
+
+/*Body Content*/
+/*Units Page, Course Names Color*/
+.unit-archive-single a.unit-archive-single-title{
+color:#EF4C24;
+}
+
+/*Units Page, Course Names Hover Color*/
+.unit-archive-single a.unit-archive-single-title:hover{
+color:#5E5E5E;
+}
+
+/*Instructor Name on Course Header*/
+.instructors-content{
+color:#008DC1;
+/*display:none;*/
+}
+
+/*Instructor Name Links Color Change*/
+.instructors-content a{
+color:#008DC1;
+/*display:none;*/
+}
+
+/*Instructor Name Links Hover Color Change*/
+.instructors-content a:hover{
+color:#5E5E5E;
+}
+
+/*Instructor Name Panel Color on course*/
+#instructor-profiles h3.ui-state-active{
+background-color:#EF4C24;
+}
+
+/*View Instructor Profile Button*/
+#instructor-profiles a.full-instructor-profile{
+background-color:#008DC1;
+}
+
+/*View Instructor Hover Profile Button*/
+#instructor-profiles a.full-instructor-profile:hover{
+background-color:#5E5E5E;
+}
+
+.submenu-main-container {
+    border-bottom: 1px solid #5E5E5E !important;
+    float: left !important;
+    margin-top: 20px !important;
+    width: 100% !important;
+}
+
+.featured-course-link button {
+    background: none repeat scroll 0 0 #EF4C24;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    display: block;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 1px;
+    min-width: 240px;
+    overflow: hidden;
+    padding: 6px 30px;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-shadow: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}    
+
+div.workbook_units .unit_title {
+    border-bottom: 1px solid #008DC1;
+    padding-bottom: 7px;
+    margin-bottom: 8px;
+}
+
+.discussion-controls .button_submit {
+    background-color: #EF4C24;
+    padding: 5px 30px 5px 30px;
+    color: #ffffff!important;
+    float: right;
+    margin-left: 2px;
+    box-shadow: none;
+    width: auto;
+    border-radius: 0px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: none;
+    line-height: 24px;
+    margin-top: 5px;
+}    
+    
+/*Other CSS- Don't need to change much here*/
+
+/*Sets default paragraph font size for site*/
+p{
+ 	font-size:100%; 
+}
+/*Sets link color & hover color for site*/
+a{
+ 
+  text-decoration: none;
+  white-space: nowrap;/*Prevents Link text on a single line*/
+}
+a:hover{
+  text-decoration: none;
+}
+
+/*Keeps text from changing size randomly*/
+button,input[type="button"],input[type="reset"],input[type="submit"]{
+ font-size:1.2em!important; 
+}
+
+/*Hides the permalink option at the bottom of the course description page*/
+footer.entry-meta {
+display: none!important;
+}
+
+/*hides the "who can register" text on the course description page*/
+.course-enrollment-type{
+display: none;
+}
+
+/*hides the courespress default menu items in the footer*/
+/*This is for when you set a custom footer menu*/
+.footer-navigation .menu-item-cp-courses{
+  display:none;
+}
+.footer-navigation .menu-item-cp-dashboard{
+  display:none;
+}
+.footer-navigation .menu-item-cp-logout{
+  display:none;
+}
+
+/*Prevents instructor image from repeating*/
+.instructor_avatar_full{
+background-repeat:no-repeat!important;
+}
+
+/*Hides instructor bio on course description page*/
+#instructor-profiles p{
+ display:none; 
+}
+/*Fixes the extra spacing under the instructor image on the course description page*/
+div#ui-id-2 {
+height: 235px!important;
+}
+/*Hides the button to "view the instructor page" button on the course description page*/
+a.full-instructor-profile {
+   display: none!important;
+}
+
+/*removes the border on videos in courses*/
+div.video_player {
+    border-style: none !important;
+}
+/*Hides the sidebar widget*/
+#secondary.widget-area {
+display: none;
+}
+
+/*Hides the instuctor name link on all pages*/
+.instructor-list.instructor-list-flat {
+display:none;
+}
+
+/*Hides "Grade" Section in the Workbook*/
+.workbook_units th#grade,
+.workbook_units td:nth-child(4) {
+  display: none;
+}
+
+/*fixes issue when all courses are complete the units gettting misaligned*/
+ul.units-archive-list li {
+  clear:both!important;
+}
+
+
+/*Keeps text from changing size randomly*/
+button,input[type="button"],input[type="reset"],input[type="submit"]{
+ font-size:1.2em!important; 
+}
+
+/*Hides the permalink option at the bottom of the course description page*/
+footer.entry-meta {
+display: none!important;
+}
+
+/*hides the "who can register" text on the course description page*/
+.course-enrollment-type{
+display: none;
+}
+
+/*hides the courespress default menu items in the footer*/
+/*This is for when you set a custom footer menu*/
+.footer-navigation .menu-item-cp-courses{
+  display:none;
+}
+.footer-navigation .menu-item-cp-dashboard{
+  display:none;
+}
+.footer-navigation .menu-item-cp-logout{
+  display:none;
+}
+
+/*Prevents instructor image from repeating*/
+.instructor_avatar_full{
+background-repeat:no-repeat!important;
+}
+
+/*Hides instructor bio on course description page*/
+#instructor-profiles p{
+ display:none; 
+}
+/*Fixes the extra spacing under the instructor image on the course description page*/
+div#ui-id-2 {
+height: 235px!important;
+}
+/*Hides the button to "view the instructor page" button on the course description page*/
+a.full-instructor-profile {
+   display: none!important;
+}
+
+/*removes the border on videos in courses*/
+div.video_player {
+    border-style: none !important;
+}
+/*Hides the sidebar widget*/
+#secondary.widget-area {
+display: none;
+}
+
+/*Hides the instuctor name link on all pages*/
+.instructor-list.instructor-list-flat {
+display:none;
+}
+
+/*Hides "Grade" Section in the Workbook*/
+.workbook_units th#grade,
+.workbook_units td:nth-child(4) {
+  display: none;
+}
+
+/*fixes issue when all courses are complete the units gettting misaligned*/
+ul.units-archive-list li {
+  clear:both!important;
+}
+
+/*Hides the "Manage Course" button for Instructors because instructions aren't allowed to edit courses*/
+.manage-course {
+    display: none!important;
+}
+
+@media (max-width: 600px){
+	/*hides instructor image and profile from mobile*/
+	#instructor-profiles {
+		display: none;
+	}
+	.right-content{
+  		display:none;
+	}
+
+/*The code below makes the woocommerce page on mobile friendly*/
+/* START Make the cart table responsive */
+/* Force table to not be like tables anymore */
+.woocommerce-page table.shop_table,
+.woocommerce-page table.shop_table thead,
+.woocommerce-page table.shop_table tbody,
+.woocommerce-page table.shop_table th,
+.woocommerce-page table.shop_table td,
+.woocommerce-page table.shop_table tr {
+display: block;
+}
+ 
+/* Hide table headers (but not display: none;, for accessibility) */
+.woocommerce-page table.shop_table thead tr {
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+ 
+.woocommerce-page table.shop_table tr {
+/*border: 1px solid #d2d3d3; */
+}
+ 
+.woocommerce-page table.shop_table td {
+/* Behave like a "row" */
+border: 1px solid #d2d3d3;
+position: relative;
+padding-left: 30% !important;
+}
+ 
+.woocommerce-page table.shop_table {
+border: none;
+}
+ 
+.woocommerce-page table.shop_table td.product-spacer {
+border-color: #FFF;
+height: 10px;
+}
+ 
+.woocommerce-page table.shop_table td:before {
+/* Now like a table header */
+position: absolute;
+/* Top/left values mimic padding */
+top: 6px;
+left: 6px;
+width: 25%;
+padding-right: 10px;
+white-space: nowrap;
+}
+ 
+/*
+Label the data
+*/
+.woocommerce-page table.shop_table td.product-remove:before {
+content: "DELETE";
+}
+ 
+.woocommerce-page table.shop_table td.product-thumbnail:before {
+content: "IMAGE";
+}
+ 
+.woocommerce-page table.shop_table td.product-name:before {
+content: "PRODUCT";
+}
+ 
+.woocommerce-page table.shop_table td.product-price:before {
+content: "PRICE";
+}
+ 
+.woocommerce-page table.shop_table td.product-quantity:before {
+content: "QUANTITY";
+}
+ 
+.woocommerce-page table.shop_table td.product-subtotal:before {
+content: "SUBTOTAL";
+}
+ 
+.woocommerce-page table.shop_table td.product-total:before {
+content: "TOTAL";
+}
+ 
+.woocommerce .quantity,
+.woocommerce #content .quantity,
+.woocommerce-page .quantity,
+.woocommerce-page #content .quantity {
+margin: 0;
+}
+ 
+.woocommerce-page table.cart td.actions,
+.woocommerce-page #content table.cart td.actions {
+text-align: left;
+border:0;
+padding-left: 6px !important;
+}
+ 
+.woocommerce-page table.cart td.actions .button.alt,
+.woocommerce-page #content table.cart td.actions .button.alt {
+float: left;
+margin-top: 10px;
+}
+ 
+.woocommerce-page table.cart td.actions div,
+.woocommerce-page #content table.cart td.actions div,
+.woocommerce-page table.cart td.actions input,
+.woocommerce-page #content table.cart td.actions input {
+margin-bottom: 10px;
+}
+ 
+.woocommerce-page .cart-collaterals .cart_totals {
+float: left;
+width: 100%;
+text-align: left;
+}
+ 
+.woocommerce-page .cart-collaterals .cart_totals th,
+.woocommerce-page .cart-collaterals .cart_totals td {
+border:0 !important;
+}
+ 
+.woocommerce-page .cart-collaterals .cart_totals table tr.cart-subtotal td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.shipping td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.total td {
+padding-left: 6px !important;
+}
+ 
+.woocommerce-page table.shop_table tr.cart-subtotal td,
+.woocommerce-page table.shop_table tr.shipping td,
+.woocommerce-page table.shop_table tr.total td,
+.woocommerce-page table.shop_table.order_details tfoot th,
+.woocommerce-page table.shop_table.order_details tfoot td {
+padding-left: 6px !important;
+border:0 !important;
+}
+ 
+.woocommerce-page table.shop_table tbody {
+padding-top: 10px;
+}
+ 
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2,
+.woocommerce form .form-row-first,
+.woocommerce form .form-row-last,
+.woocommerce-page form .form-row-first,
+.woocommerce-page form .form-row-last {
+float: none;
+width: 100%;
+}
+ 
+.woocommerce .order_details ul,
+.woocommerce-page .order_details ul,
+.woocommerce .order_details,
+.woocommerce-page .order_details {
+padding:0;
+}
+ 
+.woocommerce .order_details li,
+.woocommerce-page .order_details li {
+clear: left;
+margin-bottom: 10px;
+border:0;
+}
+ 
+/* make buttons full width, text wide anyway, improves effectiveness */
+#content table.cart td.actions .button,
+.woocommerce #content table.cart td.actions .input-text,
+.woocommerce #content table.cart td.actions input,
+.woocommerce table.cart td.actions .button,
+.woocommerce table.cart td.actions .input-text,
+.woocommerce table.cart td.actions input,
+.woocommerce-page #content table.cart td.actions .button,
+.woocommerce-page #content table.cart td.actions .input-text,
+.woocommerce-page #content table.cart td.actions input,
+.woocommerce-page table.cart td.actions .button,
+.woocommerce-page table.cart td.actions .input-text,
+.woocommerce-page table.cart td.actions input {
+width: 100%;
+}
+ 
+/* keep coupon at 50% */
+#content table.cart td.actions .coupon .button,
+.woocommerce #content table.cart td.actions .coupon .input-text,
+.woocommerce #content table.cart td.actions .coupon input,
+.woocommerce table.cart td.actions .coupon .button,
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce table.cart td.actions .coupon input,
+.woocommerce-page #content table.cart td.actions .coupon .button,
+.woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce-page #content table.cart td.actions .coupon input,
+.woocommerce-page table.cart td.actions .coupon .button,
+.woocommerce-page table.cart td.actions .coupon .input-text,
+.woocommerce-page table.cart td.actions .coupon input {
+width: 48%;
+}
+ 
+/* clean up how coupon inputs display */
+#content table.cart td.actions .coupon,
+.woocommerce table.cart td.actions .coupon,
+.woocommerce-page #content table.cart td.actions .coupon,
+.woocommerce-page table.cart td.actions .coupon {
+margin-top: 1.5em;
+}
+ 
+#content table.cart td.actions .coupon .input-text,
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce-page table.cart td.actions .coupon .input-text {
+margin-bottom: 1em;
+}
+ 
+/* remove cross sells, they interfere with flow between cart and cart totals + shipping calculator */
+.woocommerce .cart-collaterals .cross-sells,
+.woocommerce-page .cart-collaterals .cross-sells {
+display: none;
+}
+ 
+}/*End mobile*/
+
+
+
+/*Normalizing CSS -- PAragraph text and Answer box. */
+p {
+font-size: 18px;
+}
+
+.sue-panel-content {
+color: #5d5e5e;
+}
+
+
+

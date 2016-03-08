@@ -1,0 +1,100 @@
+
+button.btn.btn-primary {
+    background-color: #EF4C24;
+    color: #ffffff;
+    background-image: none;
+    border-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Dosis',sans-serif;
+    border-radius: 0px;
+    box-shadow: none;
+}
+button.btn.btn-primary:hover {
+text-decoration:none;
+background-color:#5E5E5E;
+   
+}
+button.btn.btn-lg:hover {
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+
+div.form-group {
+    background-color: #fafafa;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    font-family: Open sans;
+    margin-bottom: 35px;
+    border-style: solid;
+    border-color: #148EC3;
+    border-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form.form-horizontal fieldset legend {
+    color: #EF4C24;
+    font-size: 30px;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-color: #EF4C24;
+}
+
+div.container {
+    width: 100%;
+}
+
+
+main.site-main a button {
+    background-color: #EF4C24;
+    color: #ffffff;
+    background-image: none;
+    border-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Dosis',sans-serif;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+main.site-main h1 {
+    color: #EF4C24;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-color: #EF4C24;
+    margin-bottom: 0;
+}
+
+main.site-main h2 {
+    font-size: 25px;
+    color: #148EC3;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+
+label.col-md-4.control-label {
+    width: 60%;
+    text-align:left;
+}
+button.btn.btn-default {
+    background-color: #828282;
+    color: #ffffff;
+    background-image: none;
+    border-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Dosis',sans-serif;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+
+h4.modal-title {
+    font-weight: bold;
+    font-size:25px;
+}
